@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image:url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  font-family: 'Akronim', cursive;
+}
+.title{
+  font-size: 54px;
+  margin-top: 0px;
+  margin-bottom: 80px;
+  letter-spacing: 2px;
+  background: -webkit-linear-gradient(#fccc65, #ff651e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  shadow: 2px 2px 5px #fccc65;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 750px;
+}
+
+.square{
+  width: 7px;
+  height: 7px;
+  margin: 0.5px;
+  background: rgba(53, 53, 53, 0.1);
+  box-shadow: 0 0 1px #272727;
+  transition:  2s ease;
+  border-radius: 4px;
+}
+
+.square:hover{
+  transition-duration: 0s ;
+}
